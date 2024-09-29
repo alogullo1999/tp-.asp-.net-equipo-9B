@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promo Web", "Promo Web\Promo Web.csproj", "{5C80AABB-244E-4093-84AD-4A990D161717}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dominio", "dominio\dominio.csproj", "{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5C80AABB-244E-4093-84AD-4A990D161717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C80AABB-244E-4093-84AD-4A990D161717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C80AABB-244E-4093-84AD-4A990D161717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

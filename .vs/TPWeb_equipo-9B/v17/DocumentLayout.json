@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pca\\Desktop\\REPO ACTIVIDAD 4\\TPWeb_equipo-9B\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}|dominio\\dominio.csproj|c:\\users\\pca\\desktop\\repo actividad 4\\tpweb_equipo-9b\\dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}|dominio\\dominio.csproj|solutionrelative:dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}|dominio\\dominio.csproj|c:\\users\\pca\\desktop\\repo actividad 4\\tpweb_equipo-9b\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}|dominio\\dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}|dominio\\dominio.csproj|c:\\users\\pca\\desktop\\repo actividad 4\\tpweb_equipo-9b\\dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}|dominio\\dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}|dominio\\dominio.csproj|c:\\users\\pca\\desktop\\repo actividad 4\\tpweb_equipo-9b\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10ECC6FC-AF4D-4882-8D7D-A34F42CC1C41}|dominio\\dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Imagen.cs",
+              "DocumentMoniker": "C:\\Users\\pca\\Desktop\\REPO ACTIVIDAD 4\\TPWeb_equipo-9B\\dominio\\Imagen.cs",
+              "RelativeDocumentMoniker": "dominio\\Imagen.cs",
+              "ToolTip": "C:\\Users\\pca\\Desktop\\REPO ACTIVIDAD 4\\TPWeb_equipo-9B\\dominio\\Imagen.cs",
+              "RelativeToolTip": "dominio\\Imagen.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T21:02:12.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\pca\\Desktop\\REPO ACTIVIDAD 4\\TPWeb_equipo-9B\\dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\pca\\Desktop\\REPO ACTIVIDAD 4\\TPWeb_equipo-9B\\dominio\\Categoria.cs",
+              "RelativeToolTip": "dominio\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T20:59:23.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\pca\\Desktop\\REPO ACTIVIDAD 4\\TPWeb_equipo-9B\\dominio\\Marca.cs",
+              "RelativeDocumentMoniker": "dominio\\Marca.cs",
+              "ToolTip": "C:\\Users\\pca\\Desktop\\REPO ACTIVIDAD 4\\TPWeb_equipo-9B\\dominio\\Marca.cs",
+              "RelativeToolTip": "dominio\\Marca.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T20:57:14.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Articulos.cs",
+              "DocumentMoniker": "C:\\Users\\pca\\Desktop\\REPO ACTIVIDAD 4\\TPWeb_equipo-9B\\dominio\\Articulos.cs",
+              "RelativeDocumentMoniker": "dominio\\Articulos.cs",
+              "ToolTip": "C:\\Users\\pca\\Desktop\\REPO ACTIVIDAD 4\\TPWeb_equipo-9B\\dominio\\Articulos.cs",
+              "RelativeToolTip": "dominio\\Articulos.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T20:53:05.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
