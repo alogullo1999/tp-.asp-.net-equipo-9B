@@ -1,0 +1,9 @@
+C:\Users\pca\Desktop\REPOSITORIO ACTIVIDAD 2\tp-winform-equipo-9B\TPWinForm_equipo-9B\negocio\bin\Debug\negocio.dll
+C:\Users\pca\Desktop\REPOSITORIO ACTIVIDAD 2\tp-winform-equipo-9B\TPWinForm_equipo-9B\negocio\bin\Debug\negocio.pdb
+C:\Users\pca\Desktop\REPOSITORIO ACTIVIDAD 2\tp-winform-equipo-9B\TPWinForm_equipo-9B\negocio\bin\Debug\dominio.dll
+C:\Users\pca\Desktop\REPOSITORIO ACTIVIDAD 2\tp-winform-equipo-9B\TPWinForm_equipo-9B\negocio\bin\Debug\dominio.pdb
+C:\Users\pca\Desktop\REPOSITORIO ACTIVIDAD 2\tp-winform-equipo-9B\TPWinForm_equipo-9B\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\pca\Desktop\REPOSITORIO ACTIVIDAD 2\tp-winform-equipo-9B\TPWinForm_equipo-9B\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\pca\Desktop\REPOSITORIO ACTIVIDAD 2\tp-winform-equipo-9B\TPWinForm_equipo-9B\negocio\obj\Debug\negocio.csproj.Up2Date
+C:\Users\pca\Desktop\REPOSITORIO ACTIVIDAD 2\tp-winform-equipo-9B\TPWinForm_equipo-9B\negocio\obj\Debug\negocio.dll
+C:\Users\pca\Desktop\REPOSITORIO ACTIVIDAD 2\tp-winform-equipo-9B\TPWinForm_equipo-9B\negocio\obj\Debug\negocio.pdb

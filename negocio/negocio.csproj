@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}</ProjectGuid>
+    <ProjectGuid>{C521E3C6-A4A8-4F20-95E9-9746A0710E40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>dominio</RootNamespace>
-    <AssemblyName>dominio</AssemblyName>
+    <RootNamespace>negocio</RootNamespace>
+    <AssemblyName>negocio</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,11 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Articulos.cs" />
-    <Compile Include="Categoria.cs" />
-    <Compile Include="Imagen.cs" />
-    <Compile Include="Marcas.cs" />
+    <Compile Include="AccesoDatos.cs" />
+    <Compile Include="ArticulosNegocio.cs" />
+    <Compile Include="CategoriaNegocio.cs" />
+    <Compile Include="MarcasNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dominio\dominio.csproj">
+      <Project>{2ce8de52-4472-47e8-ad7f-b4fe0902fc6c}</Project>
+      <Name>dominio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
