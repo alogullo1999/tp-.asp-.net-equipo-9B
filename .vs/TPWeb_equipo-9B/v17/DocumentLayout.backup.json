@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\negocio\\vouchersnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|solutionrelative:negocio\\vouchersnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\dominio\\vouchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|solutionrelative:dominio\\vouchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\negocio\\clientesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|solutionrelative:negocio\\clientesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\dominio\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|solutionrelative:dominio\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|solutionrelative:dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\negocio\\imagennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\imagennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|solutionrelative:negocio\\imagennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,6 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VouchersNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\VouchersNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\VouchersNegocio.cs",
+              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\VouchersNegocio.cs",
+              "RelativeToolTip": "negocio\\VouchersNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T22:53:24.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientesNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\ClientesNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\ClientesNegocio.cs",
+              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\ClientesNegocio.cs",
+              "RelativeToolTip": "negocio\\ClientesNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T22:42:26.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vouchers.cs",
+              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\Vouchers.cs",
+              "RelativeDocumentMoniker": "dominio\\Vouchers.cs",
+              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\Vouchers.cs",
+              "RelativeToolTip": "dominio\\Vouchers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T22:38:11.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Clientes.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\Clientes.cs",
               "RelativeDocumentMoniker": "dominio\\Clientes.cs",
@@ -59,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Imagen.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\Imagen.cs",
               "RelativeDocumentMoniker": "dominio\\Imagen.cs",
@@ -71,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ImagenNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\ImagenNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ImagenNegocio.cs",
@@ -79,12 +130,11 @@
               "RelativeToolTip": "negocio\\ImagenNegocio.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:19:19.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T21:19:19.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CategoriaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\CategoriaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\CategoriaNegocio.cs",
@@ -96,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MarcasNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\MarcasNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\MarcasNegocio.cs",
@@ -108,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
@@ -120,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ArticulosNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\ArticulosNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ArticulosNegocio.cs",
@@ -132,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Articulos.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\Articulos.cs",
               "RelativeDocumentMoniker": "dominio\\Articulos.cs",
@@ -140,8 +190,7 @@
               "RelativeToolTip": "dominio\\Articulos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T15:42:02.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T15:42:02.965Z"
             }
           ]
         }
