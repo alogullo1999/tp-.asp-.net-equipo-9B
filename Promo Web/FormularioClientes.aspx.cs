@@ -85,7 +85,7 @@ namespace Promo_Web
                     return;
                 }
 
-                // Validar Email
+             
                 clientes.Email = txtEmail.Text.Trim();
                 if (string.IsNullOrWhiteSpace(clientes.Email))
                 {
@@ -93,7 +93,7 @@ namespace Promo_Web
                     return;
                 }
 
-                // Validar formato de Email
+        
                 if (!EmailValido(clientes.Email))
                 {
                     lblError.Text = "El email del cliente no tiene un formato válido.";
@@ -158,7 +158,6 @@ namespace Promo_Web
                 var cliente = clientes.ObtenerClientes(dni);
                 if (cliente != null)
                 {
-                    // Autocompleto el formulario
                     txtNombre.Text = cliente.Nombre;
                     txtApellido.Text = cliente.Apellido;
                     txtEmail.Text = cliente.Email;
@@ -175,7 +174,7 @@ namespace Promo_Web
 
         protected void btnVaciar_Click(object sender, EventArgs e)
         {
-            // Vacio los campos del form
+            
             txtDNI.Text = string.Empty;
             txtNombre.Text = string.Empty;
             txtApellido.Text = string.Empty;
@@ -185,7 +184,7 @@ namespace Promo_Web
             txtCP.Text = string.Empty;
             chkTerminos.Checked = false;
 
-            // Limpiar etiquetas de error y success
+            
             lblError.Text = string.Empty;
             lblSuceso.Text = string.Empty;
         }
