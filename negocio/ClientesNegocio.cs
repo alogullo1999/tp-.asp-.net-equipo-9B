@@ -41,5 +41,30 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
+
+        public void AgregarClientes(Clientes clientes)
+        {
+            
+                if (string.IsNullOrWhiteSpace(clientes.Documento.ToString()))
+                    throw new ArgumentException("EL DNI DEL CLIENTE ES OBLIGATORIA");
+
+                if (string.IsNullOrWhiteSpace(clientes.Nombre))
+                    throw new ArgumentException("EL NOMBRE DEL CLIENTE ES OBLIGATORIA");
+
+                if (string.IsNullOrWhiteSpace(clientes.Apellido))
+                    throw new ArgumentException("EL APELLIDO DEL CLIENTE ES OBLIGATORIA");
+
+                if (string.IsNullOrWhiteSpace(clientes.Email))
+                    throw new ArgumentException("EL EMAIL DEL CLIENTE ES OBLIGATORIA");
+
+                if (string.IsNullOrWhiteSpace(clientes.Direccion))
+                    throw new ArgumentException("LA DIRECCIÓN DEL CLIENTE ES OBLIGATORIA.");
+
+                if (string.IsNullOrWhiteSpace(clientes.Ciudad))
+                    throw new ArgumentException("LA CIUDAD DEL CLIENTE ES OBLIGATORIA");
+
+                if (string.IsNullOrWhiteSpace(clientes.CP.ToString()))
+                    throw new ArgumentException("EL CÓDIGO POSTAL DEL CLIENTE ES OBLIGATORIA");
+        }
     }
 }

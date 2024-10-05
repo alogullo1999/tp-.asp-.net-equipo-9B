@@ -3,19 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\promo web\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\promo web\\formularioclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\formularioclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\clientesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|solutionrelative:negocio\\clientesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\promo web\\formularioclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\formularioclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\negocio\\vouchersnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|solutionrelative:negocio\\vouchersnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\dominio\\vouchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\vouchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|solutionrelative:dominio\\vouchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\negocio\\clientesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|solutionrelative:negocio\\clientesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\dominio\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|solutionrelative:dominio\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,11 +66,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormularioClientes.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx.cs",
+              "RelativeDocumentMoniker": "Promo Web\\FormularioClientes.aspx.cs",
+              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx.cs",
+              "RelativeToolTip": "Promo Web\\FormularioClientes.aspx.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T17:29:23.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormularioClientes.aspx",
+              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx",
+              "RelativeDocumentMoniker": "Promo Web\\FormularioClientes.aspx",
+              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx",
+              "RelativeToolTip": "Promo Web\\FormularioClientes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-05T17:27:51.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MiMaster.Master",
+              "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\MiMaster.Master",
+              "RelativeDocumentMoniker": "Promo Web\\MiMaster.Master",
+              "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\MiMaster.Master",
+              "RelativeToolTip": "Promo Web\\MiMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-05T17:25:55.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "VouchersNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\VouchersNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\VouchersNegocio.cs",
@@ -77,14 +128,14 @@
               "RelativeDocumentMoniker": "negocio\\ClientesNegocio.cs",
               "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\ClientesNegocio.cs",
               "RelativeToolTip": "negocio\\ClientesNegocio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADAAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T22:42:26.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Vouchers.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\Vouchers.cs",
               "RelativeDocumentMoniker": "dominio\\Vouchers.cs",
@@ -92,12 +143,11 @@
               "RelativeToolTip": "dominio\\Vouchers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T22:38:11.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T22:38:11.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Clientes.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\Clientes.cs",
               "RelativeDocumentMoniker": "dominio\\Clientes.cs",
@@ -105,12 +155,11 @@
               "RelativeToolTip": "dominio\\Clientes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:13:36.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T15:13:36.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Imagen.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\Imagen.cs",
               "RelativeDocumentMoniker": "dominio\\Imagen.cs",
@@ -122,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ImagenNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\ImagenNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ImagenNegocio.cs",
@@ -134,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CategoriaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\CategoriaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\CategoriaNegocio.cs",
@@ -146,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MarcasNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\MarcasNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\MarcasNegocio.cs",
@@ -158,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
@@ -170,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ArticulosNegocio.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\negocio\\ArticulosNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ArticulosNegocio.cs",
@@ -182,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Articulos.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\dominio\\Articulos.cs",
               "RelativeDocumentMoniker": "dominio\\Articulos.cs",
