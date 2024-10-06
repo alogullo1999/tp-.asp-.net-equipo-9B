@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,31 +13,44 @@ namespace Promo_Web
     public partial class FormularioClientes : System.Web.UI.Page
     {
 
-        protected void Page_Load(object sender, EventArgs e)
+     protected void btnBuscarDNI_Click(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            string Documento = txtDNI.Text.Trim();
+
+            AccesoDatos datos = new AccesoDatos();
             {
-                if (!string.IsNullOrWhiteSpace(txtDNI.Text) && int.TryParse(txtDNI.Text, out int dni))
+                datos.setearConsulta("SELECT Nombre, Apellido, Email, Direccion, Ciudad, CP FROM Clientes WHERE Documento = @Documento");
+                datos.setearParametro("@Documento", Documento);
+
+                SqlDataReader lector = datos.EjecutarLectura();
+                if (lector.Read())
                 {
-                    ClientesNegocio clientes = new ClientesNegocio();
-                    var cliente = clientes.ObtenerClientes(dni);
-                    if (cliente != null)
-                    {
-                        // Autocompletar el formulario
-                        txtNombre.Text = cliente.Nombre;
-                        txtApellido.Text = cliente.Apellido;
-                        txtEmail.Text = cliente.Email;
-                        txtDireccion.Text = cliente.Direccion;
-                        txtCiudad.Text = cliente.Ciudad;
-                        txtCP.Text = cliente.CP.ToString();
-                    }
-                    else
-                    {
-                        lblError.Text = "No fue encontrado el cliente";
-                    }
+                    Console.WriteLine("Datos obtenidos: " + lector["Nombre"].ToString());
+                    lblMessage.Text = "Ya estas registrado!!!";
+                    txtNombre.Text = lector["Nombre"].ToString();
+                    txtApellido.Text = lector["Apellido"].ToString();
+                    txtEmail.Text = lector["Email"].ToString();
+                    txtDireccion.Text = lector["Direccion"].ToString();
+                    txtCiudad.Text = lector["Ciudad"].ToString();
+                    txtCP.Text = lector["CP"].ToString();
+
+
+                    panelFormulario.Visible = true;
                 }
+                else
+                {
+                    panelFormulario.Visible = true;
+                    Console.WriteLine("No se encontraron resultados para el Documento ingresado.");
+                    lblMessage.Text = "El Documento NO esta registrado por favor completa tus datos!";
+                }
+                datos.cerrarConexion();
             }
         }
+
+
+
+
+
 
         protected void btnAceptar_Click(object sender,EventArgs e)
         {

@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
+using System.Configuration;
+
+
 
 namespace negocio
 {
@@ -17,10 +20,11 @@ namespace negocio
             get { return lector; }
         }
 
+ 
+
         public AccesoDatos()
         {
-            //conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
-            //Conectar la Base de datos que corresponde. Modificar esto!!!
+            conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
             comando = new SqlCommand();
         }
 
@@ -30,20 +34,14 @@ namespace negocio
             comando.CommandText = consulta;
         }
 
-        public void ejecutarLectura()
+        public void setearProcedimiento(string sp)
         {
-            comando.Connection = conexion;
+            comando.CommandType = System.Data.CommandType.StoredProcedure;
+            comando.CommandText = sp;
 
-            try
-            {
-                conexion.Open();
-                lector = comando.ExecuteReader();
-            }
-            catch(Exception ex)
-            {
-                throw ex;
-            }
         }
+
+
 
         public void ejecutarAccion()
         {
@@ -53,7 +51,21 @@ namespace negocio
                 conexion.Open();
                 comando.ExecuteNonQuery();
             }
-            catch(Exception ex)
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public int ejecutarAccionScalar()
+        {
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                return int.Parse(comando.ExecuteScalar().ToString());
+            }
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -66,12 +78,25 @@ namespace negocio
 
         public void cerrarConexion()
         {
-            if(lector != null)
-            {
+            if (lector != null)
                 lector.Close();
-                conexion.Close();
-            }
+            conexion.Close();
+        }
+
+
+        public SqlDataReader EjecutarLectura()
+        {
+            conexion.Open();
+            comando.Connection = conexion;  
+            lector = comando.ExecuteReader();
+            return lector;
         }
 
     }
+
+
+
+
+
 }
+

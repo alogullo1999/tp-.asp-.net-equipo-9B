@@ -18,7 +18,7 @@ namespace negocio
             {
                 datos.setearConsulta("SELECT CodigoVoucher,IdCliente,FechaCanje,IdArticulo FROM Vouchers WHERE CodigoVoucher LIKE @Codigo");
                 datos.setearParametro("@Codigo","%"+ CV+"%");
-                datos.ejecutarLectura();
+                datos.EjecutarLectura();
 
                 if (datos.Lector.Read())
                 {

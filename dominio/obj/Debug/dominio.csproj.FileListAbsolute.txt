@@ -10,3 +10,9 @@ C:\Users\bonfr\Desktop\REPO ACTIVIDAD 4\tp-web-equipo-9B\dominio\obj\Debug\domin
 C:\Users\bonfr\Desktop\REPO ACTIVIDAD 4\tp-web-equipo-9B\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\bonfr\Desktop\REPO ACTIVIDAD 4\tp-web-equipo-9B\dominio\obj\Debug\dominio.dll
 C:\Users\bonfr\Desktop\REPO ACTIVIDAD 4\tp-web-equipo-9B\dominio\obj\Debug\dominio.pdb
+C:\Users\Adriel\Desktop\tp-web-equipo-9B\dominio\bin\Debug\dominio.dll
+C:\Users\Adriel\Desktop\tp-web-equipo-9B\dominio\bin\Debug\dominio.pdb
+C:\Users\Adriel\Desktop\tp-web-equipo-9B\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\Adriel\Desktop\tp-web-equipo-9B\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\Adriel\Desktop\tp-web-equipo-9B\dominio\obj\Debug\dominio.dll
+C:\Users\Adriel\Desktop\tp-web-equipo-9B\dominio\obj\Debug\dominio.pdb

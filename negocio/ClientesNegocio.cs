@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,9 +17,10 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("SELECT Id,Documento,Nombre,Email,Direccion,Ciudad,CP FROM CLIENTES WHERE Id=@id ");
+                datos.setearConsulta("SELECT Id,Documento,Nombre,Email,Direccion,Ciudad,CP FROM Clientes WHERE Id=@id ");
                 datos.setearParametro("@id", id);
-                datos.ejecutarAccion();
+
+                SqlDataReader lector = datos.EjecutarLectura();
 
                 if (datos.Lector.Read())
                 {

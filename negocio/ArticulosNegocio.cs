@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Linq.Expressions;
@@ -20,18 +21,18 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("select Id, Codigo, Nombre ,Descripcion ,Precio  from ARTICULOS");
-                datos.ejecutarLectura();
+                datos.setearConsulta(" SELECT  a.Id AS PremioID,  a.Nombre,  a.Descripcion, a.Precio, i.ImagenUrl   FROM Articulos a INNER JOIN Imagenes i ON a.Id = i.IdArticulo");
+                datos.EjecutarLectura();
 
                 while (datos.Lector.Read())
                 {
                     Articulos aux = new Articulos();
-                    aux.IdArticulo = (int)datos.Lector["Id"];
-                    aux.Codigo = (string)datos.Lector["Codigo"];
+                    aux.IdArticulo = (int)datos.Lector["PremioID"];
                     aux.Nombre = (string)datos.Lector["Nombre"];
-                  
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.precio = (decimal)datos.Lector["Precio"];
+                    aux.imagen = (string)datos.Lector["ImagenUrl"];
+                    
 
                     lista.Add(aux);
                 }
@@ -107,7 +108,42 @@ namespace negocio
         }
 
 
+        public List<Articulos> listarConSP()
+        {
+            List<Articulos> lista = new List<Articulos>();
+            AccesoDatos datos = new AccesoDatos();
 
+            try
+            {
+                datos.setearConsulta("SELECT Id, Nombre, Descripcion, Precio, ImagenUrl FROM Articulos");
+                datos.EjecutarLectura();
 
+                while (datos.Lector.Read())
+                {
+                    Articulos articulo = new Articulos
+                    {
+                        IdArticulo = (int)datos.Lector["Id"],
+                        Nombre = datos.Lector["Nombre"].ToString(),
+                        Descripcion = datos.Lector["Descripcion"].ToString(),
+                        precio = (decimal)datos.Lector["Precio"],
+                        imagen = datos.Lector["ImagenUrl"].ToString()
+                    };
+
+                    lista.Add(articulo);
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }
+
+
