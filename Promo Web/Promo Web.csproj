@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="FormularioClientes.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="RedireccionInicio.aspx" />
     <Content Include="SeleccionarPremio.aspx" />
     <Content Include="Voucher.aspx" />
     <Content Include="Web.config" />
@@ -92,6 +93,13 @@
       <DependentUpon>MiMaster.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedireccionInicio.aspx.cs">
+      <DependentUpon>RedireccionInicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RedireccionInicio.aspx.designer.cs">
+      <DependentUpon>RedireccionInicio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SeleccionarPremio.aspx.cs">
       <DependentUpon>SeleccionarPremio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -22,7 +22,7 @@ namespace Promo_Web
             try
             {
 
-                datos.setearConsulta("SELECT COUNT(*) FROM Vouchers WHERE CodigoVoucher = @CodigoVoucher ");
+                datos.setearConsulta("SELECT COUNT(*) FROM Vouchers WHERE CodigoVoucher = @CodigoVoucher and FechaCanje is null");
                 datos.setearParametro("@CodigoVoucher", CodigoVoucher);
 
                 int count = datos.ejecutarAccionScalar();
@@ -33,8 +33,12 @@ namespace Promo_Web
                     lblMessage.Text = "El código es valido. Serás redirigido en 5 segundos.";
                     lblMessage.ForeColor = System.Drawing.Color.Green;
 
-                    string script = "<script type='text/javascript'>setTimeout(function() { window.location.href = 'FormularioClientes.aspx'; }, 5000);</script>";
+                    string script = "<script type='text/javascript'>setTimeout(function() { window.location.href = 'SeleccionarPremio.aspx'; }, 5000);</script>";
                     ClientScript.RegisterStartupScript(this.GetType(), "Redirect", script);
+
+
+
+
                 }
                 else
                 {

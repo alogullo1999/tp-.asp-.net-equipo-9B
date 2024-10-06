@@ -28,6 +28,7 @@ namespace Promo_Web
                 {
                     Console.WriteLine("Datos obtenidos: " + lector["Nombre"].ToString());
                     lblMessage.Text = "Ya estas registrado!!!";
+
                     txtNombre.Text = lector["Nombre"].ToString();
                     txtApellido.Text = lector["Apellido"].ToString();
                     txtEmail.Text = lector["Email"].ToString();
@@ -97,7 +98,10 @@ namespace Promo_Web
                 ClientesNegocio negocio = new ClientesNegocio();
                 negocio.AgregarClientes(cliente);
 
-                lblMessage.Text = "El cliente ha sido dado de alta correctamente.";
+
+                string script = "<script type='text/javascript'>setTimeout(function() { window.location.href = 'RedireccionInicio.aspx'; }, 1000);</script>";
+                ClientScript.RegisterStartupScript(this.GetType(), "Redirect", script);
+
             }
             catch (Exception ex)
             {

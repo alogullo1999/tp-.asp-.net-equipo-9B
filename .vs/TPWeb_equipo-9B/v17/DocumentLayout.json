@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\seleccionarpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\seleccionarpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\formularioclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\formularioclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\adriel\\desktop\\tp-web-equipo-9b\\promo web\\redireccioninicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\redireccioninicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\formularioclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\formularioclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\seleccionarpremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\seleccionarpremio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\adriel\\desktop\\tp-web-equipo-9b\\promo web\\seleccionarpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\seleccionarpremio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\voucher.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\voucher.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\voucher.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\voucher.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\formularioclientes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\formularioclientes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\seleccionarpremio.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,32 +51,12 @@
       "RelativeMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|solutionrelative:dominio\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\adriel\\desktop\\tp-web-equipo-9b\\promo web\\formularioclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\formularioclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\formularioclientes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\formularioclientes.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|solutionrelative:dominio\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\clientesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C521E3C6-A4A8-4F20-95E9-9746A0710E40}|negocio\\negocio.csproj|solutionrelative:negocio\\clientesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\formularioclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\formularioclientes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\voucher.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\voucher.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\voucher.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\voucher.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -69,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|solutionrelative:dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\promo web\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CE8DE52-4472-47E8-AD7F-B4FE0902FC6C}|dominio\\dominio.csproj|C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\vouchers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,62 +102,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormularioClientes.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx.cs",
-              "RelativeDocumentMoniker": "Promo Web\\FormularioClientes.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx.cs",
-              "RelativeToolTip": "Promo Web\\FormularioClientes.aspx.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAmwGkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T17:29:23.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeleccionarPremio.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx",
-              "RelativeDocumentMoniker": "Promo Web\\SeleccionarPremio.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx",
-              "RelativeToolTip": "Promo Web\\SeleccionarPremio.aspx",
+              "DocumentIndex": 1,
+              "Title": "RedireccionInicio.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\RedireccionInicio.aspx",
+              "RelativeDocumentMoniker": "Promo Web\\RedireccionInicio.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\RedireccionInicio.aspx",
+              "RelativeToolTip": "Promo Web\\RedireccionInicio.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-06T12:38:59.778Z",
+              "WhenOpened": "2024-10-06T22:29:55.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Voucher.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx.cs",
-              "RelativeDocumentMoniker": "Promo Web\\Voucher.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx.cs",
-              "RelativeToolTip": "Promo Web\\Voucher.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T11:51:01.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Web.config",
-              "RelativeDocumentMoniker": "Promo Web\\Web.config",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Web.config",
-              "RelativeToolTip": "Promo Web\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-06T11:36:35.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FormularioClientes.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx.designer.cs",
               "RelativeDocumentMoniker": "Promo Web\\FormularioClientes.aspx.designer.cs",
@@ -166,84 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Voucher.aspx",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx",
-              "RelativeDocumentMoniker": "Promo Web\\Voucher.aspx",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx",
-              "RelativeToolTip": "Promo Web\\Voucher.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-06T11:50:06.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Clientes.cs",
-              "RelativeDocumentMoniker": "dominio\\Clientes.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Clientes.cs",
-              "RelativeToolTip": "dominio\\Clientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T15:13:36.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SeleccionarPremio.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx.cs",
-              "RelativeDocumentMoniker": "Promo Web\\SeleccionarPremio.aspx.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx.cs",
-              "RelativeToolTip": "Promo Web\\SeleccionarPremio.aspx.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwB0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T12:43:32.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SeleccionarPremio.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx.designer.cs",
-              "RelativeDocumentMoniker": "Promo Web\\SeleccionarPremio.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx.designer.cs",
-              "RelativeToolTip": "Promo Web\\SeleccionarPremio.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T16:10:00.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Imagen.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Imagen.cs",
-              "RelativeDocumentMoniker": "dominio\\Imagen.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Imagen.cs",
-              "RelativeToolTip": "dominio\\Imagen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:21:20.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ImagenNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\ImagenNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ImagenNegocio.cs",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\ImagenNegocio.cs",
-              "RelativeToolTip": "negocio\\ImagenNegocio.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:19:19.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "FormularioClientes.aspx",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx",
               "RelativeDocumentMoniker": "Promo Web\\FormularioClientes.aspx",
@@ -257,6 +146,146 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "MiMaster.Master",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\MiMaster.Master",
+              "RelativeDocumentMoniker": "Promo Web\\MiMaster.Master",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\MiMaster.Master",
+              "RelativeToolTip": "Promo Web\\MiMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-05T17:25:55.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormularioClientes.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx.cs",
+              "RelativeDocumentMoniker": "Promo Web\\FormularioClientes.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx.cs",
+              "RelativeToolTip": "Promo Web\\FormularioClientes.aspx.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwEkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T17:29:23.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeleccionarPremio.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx",
+              "RelativeDocumentMoniker": "Promo Web\\SeleccionarPremio.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx",
+              "RelativeToolTip": "Promo Web\\SeleccionarPremio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T12:38:59.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Voucher.aspx",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx",
+              "RelativeDocumentMoniker": "Promo Web\\Voucher.aspx",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx",
+              "RelativeToolTip": "Promo Web\\Voucher.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T11:50:06.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeleccionarPremio.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx.cs",
+              "RelativeDocumentMoniker": "Promo Web\\SeleccionarPremio.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx.cs",
+              "RelativeToolTip": "Promo Web\\SeleccionarPremio.aspx.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:43:32.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Voucher.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx.cs",
+              "RelativeDocumentMoniker": "Promo Web\\Voucher.aspx.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx.cs",
+              "RelativeToolTip": "Promo Web\\Voucher.aspx.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T11:51:01.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SeleccionarPremio.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Promo Web\\SeleccionarPremio.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\SeleccionarPremio.aspx.designer.cs",
+              "RelativeToolTip": "Promo Web\\SeleccionarPremio.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T16:10:00.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Clientes.cs",
+              "RelativeDocumentMoniker": "dominio\\Clientes.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Clientes.cs",
+              "RelativeToolTip": "dominio\\Clientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:13:36.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Web.config",
+              "RelativeDocumentMoniker": "Promo Web\\Web.config",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\Web.config",
+              "RelativeToolTip": "Promo Web\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-06T11:36:35.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Imagen.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Imagen.cs",
+              "RelativeDocumentMoniker": "dominio\\Imagen.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Imagen.cs",
+              "RelativeToolTip": "dominio\\Imagen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:21:20.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImagenNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\ImagenNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\ImagenNegocio.cs",
+              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\ImagenNegocio.cs",
+              "RelativeToolTip": "negocio\\ImagenNegocio.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:19:19.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ClientesNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\ClientesNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ClientesNegocio.cs",
@@ -264,12 +293,11 @@
               "RelativeToolTip": "negocio\\ClientesNegocio.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAcwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T22:42:26.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T22:42:26.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "MiMaster.Master.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\MiMaster.Master.cs",
               "RelativeDocumentMoniker": "Promo Web\\MiMaster.Master.cs",
@@ -281,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ArticulosNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\ArticulosNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ArticulosNegocio.cs",
@@ -293,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
@@ -305,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "MarcasNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\MarcasNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\MarcasNegocio.cs",
@@ -317,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Articulos.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Articulos.cs",
               "RelativeDocumentMoniker": "dominio\\Articulos.cs",
@@ -329,19 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MiMaster.Master",
-              "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\MiMaster.Master",
-              "RelativeDocumentMoniker": "Promo Web\\MiMaster.Master",
-              "ToolTip": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\Promo Web\\MiMaster.Master",
-              "RelativeToolTip": "Promo Web\\MiMaster.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-05T17:25:55.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Vouchers.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\dominio\\Vouchers.cs",
               "RelativeDocumentMoniker": "dominio\\Vouchers.cs",
@@ -353,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "VouchersNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\VouchersNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\VouchersNegocio.cs",
@@ -365,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CategoriaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Adriel\\Desktop\\tp-web-equipo-9B\\negocio\\CategoriaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\CategoriaNegocio.cs",
