@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\promo web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\promo web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\promo web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\promo web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\promo web\\voucher.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\voucher.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|c:\\users\\bonfr\\desktop\\repo actividad 4\\tp-web-equipo-9b\\promo web\\formularioclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\promo web\\formularioclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C80AABB-244E-4093-84AD-4A990D161717}|Promo Web\\Promo Web.csproj|solutionrelative:promo web\\formularioclientes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -106,11 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\Default.aspx",
               "RelativeDocumentMoniker": "Promo Web\\Default.aspx",
@@ -123,13 +123,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\Default.aspx.cs",
               "RelativeDocumentMoniker": "Promo Web\\Default.aspx.cs",
               "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\Default.aspx.cs",
               "RelativeToolTip": "Promo Web\\Default.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T22:37:27.705Z",
               "EditorCaption": ""
@@ -143,9 +143,8 @@
               "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\FormularioClientes.aspx.cs",
               "RelativeToolTip": "Promo Web\\FormularioClientes.aspx.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T17:29:23.034Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-10-05T17:29:23.034Z"
             },
             {
               "$type": "Document",
@@ -168,9 +167,8 @@
               "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx.cs",
               "RelativeToolTip": "Promo Web\\Voucher.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T11:51:01.395Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-10-06T11:51:01.395Z"
             },
             {
               "$type": "Document",
@@ -194,9 +192,8 @@
               "ToolTip": "C:\\Users\\bonfr\\Desktop\\REPO ACTIVIDAD 4\\tp-web-equipo-9B\\Promo Web\\Voucher.aspx",
               "RelativeToolTip": "Promo Web\\Voucher.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-06T11:50:06.808Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2024-10-06T11:50:06.808Z"
             },
             {
               "$type": "Document",

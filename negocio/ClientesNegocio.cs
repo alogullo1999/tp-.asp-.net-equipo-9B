@@ -34,7 +34,7 @@ namespace negocio
                 }
                 return clientes;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -46,27 +46,57 @@ namespace negocio
 
         public void AgregarClientes(Clientes clientes)
         {
-            
-                if (string.IsNullOrWhiteSpace(clientes.Documento.ToString()))
-                    throw new ArgumentException("EL DNI DEL CLIENTE ES OBLIGATORIA");
 
-                if (string.IsNullOrWhiteSpace(clientes.Nombre))
-                    throw new ArgumentException("EL NOMBRE DEL CLIENTE ES OBLIGATORIA");
+            if (string.IsNullOrWhiteSpace(clientes.Documento))
+                throw new ArgumentException("El DNI del cliente es obligatorio.");
 
-                if (string.IsNullOrWhiteSpace(clientes.Apellido))
-                    throw new ArgumentException("EL APELLIDO DEL CLIENTE ES OBLIGATORIA");
+            if (string.IsNullOrWhiteSpace(clientes.Nombre))
+                throw new ArgumentException("El nombre del cliente es obligatorio.");
 
-                if (string.IsNullOrWhiteSpace(clientes.Email))
-                    throw new ArgumentException("EL EMAIL DEL CLIENTE ES OBLIGATORIA");
+            if (string.IsNullOrWhiteSpace(clientes.Apellido))
+                throw new ArgumentException("El apellido del cliente es obligatorio.");
 
-                if (string.IsNullOrWhiteSpace(clientes.Direccion))
-                    throw new ArgumentException("LA DIRECCIÓN DEL CLIENTE ES OBLIGATORIA.");
+            if (string.IsNullOrWhiteSpace(clientes.Email))
+                throw new ArgumentException("El email del cliente es obligatorio.");
 
-                if (string.IsNullOrWhiteSpace(clientes.Ciudad))
-                    throw new ArgumentException("LA CIUDAD DEL CLIENTE ES OBLIGATORIA");
+            if (string.IsNullOrWhiteSpace(clientes.Direccion))
+                throw new ArgumentException("La dirección del cliente es obligatoria.");
 
-                if (string.IsNullOrWhiteSpace(clientes.CP.ToString()))
-                    throw new ArgumentException("EL CÓDIGO POSTAL DEL CLIENTE ES OBLIGATORIA");
+            if (string.IsNullOrWhiteSpace(clientes.Ciudad))
+                throw new ArgumentException("La ciudad del cliente es obligatoria.");
+
+            if (clientes.CP <= 0)
+                throw new ArgumentException("El código postal del cliente es obligatorio.");
+
+            // Insertar cliente en la base de datos
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                // Consulta de inserción
+                datos.setearConsulta(@"INSERT INTO Clientes (Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP)
+                               VALUES (@Documento, @Nombre, @Apellido, @Email, @Direccion, @Ciudad, @CP)");
+
+                // Asignar parámetros
+                datos.setearParametro("@Documento", clientes.Documento);
+                datos.setearParametro("@Nombre", clientes.Nombre);
+                datos.setearParametro("@Apellido", clientes.Apellido);
+                datos.setearParametro("@Email", clientes.Email);
+                datos.setearParametro("@Direccion", clientes.Direccion);
+                datos.setearParametro("@Ciudad", clientes.Ciudad);
+                datos.setearParametro("@CP", clientes.CP);
+
+                // Ejecutar la consulta
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                // Cerrar la conexión
+                datos.cerrarConexion();
+            }
         }
     }
 }

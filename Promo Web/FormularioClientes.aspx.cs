@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml.Linq;
 using dominio;
 using negocio;
 
@@ -27,6 +28,7 @@ namespace Promo_Web
                 {
                     Console.WriteLine("Datos obtenidos: " + lector["Nombre"].ToString());
                     lblMessage.Text = "Ya estas registrado!!!";
+
                     txtNombre.Text = lector["Nombre"].ToString();
                     txtApellido.Text = lector["Apellido"].ToString();
                     txtEmail.Text = lector["Email"].ToString();
@@ -49,115 +51,7 @@ namespace Promo_Web
 
 
 
-
-
-
-        protected void btnAceptar_Click(object sender,EventArgs e)
-        {
-            if (!chkTerminos.Checked)
-            {
-                lblError.Text = "Se debe aceptar los términos y las condiciones impuestas";
-                return;
-            }
-
-            try
-            {
-                Clientes clientes = new Clientes();
-
-                if (!int.TryParse(txtDNI.Text,out int dni))
-                {
-                    lblError.Text = "EL DNI DEBE SER CON NÚMEROS";
-                    return;
-                }
-               
-                
-
-                clientes.Nombre = txtNombre.Text.Trim();
-                if (string.IsNullOrWhiteSpace(clientes.Nombre))
-                {
-                    lblError.Text = "EL NOMBRE DEL CLIENTE ES OBLIGATORIO";
-                    return;
-                }
-
-                if (clientes.Nombre.Any(char.IsDigit))
-                {
-                    lblError.Text = "EL NOMBRE DEL CLIENTE NO PUEDE CONTENER NÚMEROS....";
-                    return;
-                }
-
-                
-                clientes.Apellido = txtApellido.Text.Trim();
-                if (string.IsNullOrWhiteSpace(clientes.Apellido))
-                {
-                    lblError.Text = "EL APELLIDO DEL CLIENTE ES OBLIGATORIO";
-                    return;
-                }
-
-                if (clientes.Apellido.Any(char.IsDigit))
-                {
-                    lblError.Text = "El apellido del cliente no puede contener números.";
-                    return;
-                }
-
-             
-                clientes.Email = txtEmail.Text.Trim();
-                if (string.IsNullOrWhiteSpace(clientes.Email))
-                {
-                    lblError.Text = "EL EMAIL DEL CLIENTE ES OBLIGATORIO INGRESARLO";
-                    return;
-                }
-
-        
-                if (!EmailValido(clientes.Email))
-                {
-                    lblError.Text = "El email del cliente no tiene un formato válido.";
-                    return;
-                }
-
-                // Validar Dirección
-                clientes.Direccion = txtDireccion.Text.Trim();
-                if (string.IsNullOrWhiteSpace(clientes.Direccion))
-                {
-                    lblError.Text = "LA DIRECCION DEL CLIENTE ES OBLIGATORIO INGRESARLA.";
-                    return;
-                }
-
-                
-                clientes.Ciudad = txtCiudad.Text.Trim();
-                if (string.IsNullOrWhiteSpace(clientes.Ciudad))
-                {
-                    lblError.Text = "LA CIUDAD DEL CLIENTE ES OBLIGATORIA.";
-                    return;
-                }
-
-                if (clientes.Ciudad.Any(char.IsDigit))
-                {
-                    lblError.Text = "LA CIUDAD DEL CLIENTE NO DEBE CONTENER NÚMEROS.";
-                    return;
-                }
-
-                
-                if (!int.TryParse(txtCP.Text, out int cp))
-                {
-                    lblError.Text = "EL CÓDIGO POSTAL DEBE SER CON NÚMEROS VÁLIDOS";
-                    return;
-                }
-                clientes.CP = cp;
-
-                ClientesNegocio negocio = new ClientesNegocio();
-                
-                negocio.AgregarClientes(clientes);
-                lblSuceso.Text = "Cliente agregado exitosamente.";
-                lblError.Text = "";
-
-                
-            }
-            catch(Exception ex)
-            {
-                lblError.Text = "HUBO ERROR A LA HORA DE CARGAR EL CLIENTE";
-                throw ex;
-            }
-        } 
+       
 
         public bool EmailValido(string email)
         {
@@ -185,6 +79,36 @@ namespace Promo_Web
                 }
             }
         }
+
+        protected void btnAceptar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clientes cliente = new Clientes
+                {
+                    Documento = txtDNI.Text.Trim(),
+                    Nombre = txtNombre.Text.Trim(),
+                    Apellido = txtApellido.Text.Trim(),
+                    Email = txtEmail.Text.Trim(),
+                    Direccion = txtDireccion.Text.Trim(),
+                    Ciudad = txtCiudad.Text.Trim(),
+                    CP = int.Parse(txtCP.Text.Trim())
+                };
+
+                ClientesNegocio negocio = new ClientesNegocio();
+                negocio.AgregarClientes(cliente);
+
+
+                string script = "<script type='text/javascript'>setTimeout(function() { window.location.href = 'RedireccionInicio.aspx'; }, 1000);</script>";
+                ClientScript.RegisterStartupScript(this.GetType(), "Redirect", script);
+
+            }
+            catch (Exception ex)
+            {
+                lblError.Text = "Ocurrió un error: " + ex.Message;
+            }
+        }
+
 
         protected void btnVaciar_Click(object sender, EventArgs e)
         {
