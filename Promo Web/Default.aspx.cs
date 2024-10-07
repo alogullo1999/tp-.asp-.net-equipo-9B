@@ -14,10 +14,10 @@ namespace Promo_Web
         {
 
         }
-
-        protected void btnComenzar_Click(object sender,EventArgs e)
+        protected void btnComenzar_Click(object sender, EventArgs e)
         {
-            string script = "<script type='text/javascript'>setTimeout(function(){window.location.href='Vouchers.apsx';},2000;</script>";
+  
+            string script = "<script type='text/javascript'>setTimeout(function(){window.location.href='Voucher.aspx';}, 1000);</script>";
 
             ClientScript.RegisterStartupScript(this.GetType(), "Redirect", script);
         }

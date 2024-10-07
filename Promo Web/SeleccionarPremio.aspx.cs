@@ -34,7 +34,6 @@ namespace Promo_Web
             }
             catch (Exception ex)
             {
-                // Manejar errores
                 Console.WriteLine("Error" + ex.Message);
             }
             finally

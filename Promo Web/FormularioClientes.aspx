@@ -1,14 +1,9 @@
-﻿<%@ Page Title="Formulario Clientes" Language="C#" AutoEventWireup="true" CodeBehind="FormularioClientes.aspx.cs" Inherits="Promo_Web.FormularioClientes" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MiMaster.Master" AutoEventWireup="true" CodeBehind="FormularioClientes.aspx.cs" Inherits="Promo_Web.FormularioClientes" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Formulario de Clientes</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <div class="container mt-4">
             <h2>Buscar Cliente</h2>
 
@@ -29,7 +24,7 @@
 
             <asp:Panel ID="panelFormulario" runat="server" Visible="false">
 
-                <h3>Datos del Cliente</h3>
+                <h3>Ingresa tu DNI</h3>
 
 
                 <div class="mb-3">
@@ -84,11 +79,9 @@
             </asp:Panel>
 
             <div class="mb-3">
-                <asp:Button ID="btnAceptar" runat="server" CssClass="btn btn-primary" Text="Aceptar" OnClick="btnAceptar_Click" />
+                <asp:Button ID="btnAceptar" runat="server" CssClass="btn btn-primary" Text="Participar" OnClick="btnAceptar_Click" Visible="false" />
             </div>
 
 
         </div>
-    </form>
-</body>
-</html>
+</asp:Content>

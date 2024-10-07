@@ -6,9 +6,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <div class="container mt-4">
-        <h2>Lista de Productos</h2>
+        <h2>Lista de Premios</h2>
 
-        <!-- Repeater para mostrar los productos -->
+
         <asp:Repeater ID="rptPremios" runat="server">
             <HeaderTemplate>
                 <div class="row">
@@ -22,19 +22,19 @@
             <ItemTemplate>
                 <div class="row mb-3">
                     <div class="col-3">
-                        <!-- Mostrar la imagen del producto -->
+
                         <asp:Image ID="imgProducto" runat="server" ImageUrl='<%# Eval("ImagenUrl") %>' CssClass="img-fluid" />
                     </div>
                     <div class="col-3">
-                        <!-- Mostrar el nombre del producto -->
+
                         <%# Eval("Nombre") %>
                     </div>
                     <div class="col-3">
-                        <!-- Mostrar la descripción del producto -->
+   
                         <%# Eval("Descripcion") %>
                     </div>
                     <div class="col-3 text-end">
-                        <!-- Botón "¡Quiero este!" para cada producto -->
+
                         <asp:Button ID="btnQuieroEste" runat="server" CssClass="btn btn-success" Text="¡Quiero este!" OnClick="btnQuieroEste_Click" CommandArgument='<%# Eval("PremioID") %>' />
                         <asp:HiddenField ID="hfPremioNombre" runat="server" Value='<%# Eval("Nombre") %>' />
                     </div>
@@ -42,7 +42,7 @@
             </ItemTemplate>
         </asp:Repeater>
 
-        <!-- Etiqueta para mostrar mensajes -->
+
         <asp:Label ID="lblMessage" runat="server" ForeColor="Red"></asp:Label>
     </div>
 

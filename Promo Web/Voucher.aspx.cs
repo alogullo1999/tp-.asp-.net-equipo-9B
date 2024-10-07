@@ -36,9 +36,6 @@ namespace Promo_Web
                     string script = "<script type='text/javascript'>setTimeout(function() { window.location.href = 'SeleccionarPremio.aspx'; }, 5000);</script>";
                     ClientScript.RegisterStartupScript(this.GetType(), "Redirect", script);
 
-
-
-
                 }
                 else
                 {
