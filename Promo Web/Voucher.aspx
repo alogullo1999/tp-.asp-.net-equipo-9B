@@ -14,5 +14,9 @@
     <br />
     <asp:Button ID="btnValidateVoucher" runat="server" Text="Validar Código" OnClick="btnValidateVoucher_Click" CssClass="btn btn-primary" Style="margin-top: 20px;" />
     <asp:Label ID="lblMessage" runat="server" ForeColor="Red" />
+    <br />
+    <asp:Button ID="btnInicio" runat="server" Text="Volver a inicio" OnClick="btnInicio_Click" CssClass="btn btn-primary" Style="margin-top: 20px;" visible="false"/>
+
+
 </div>
 </asp:Content>

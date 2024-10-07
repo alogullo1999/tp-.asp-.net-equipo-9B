@@ -2,6 +2,7 @@
 using System.Data.SqlClient;
 using System.Configuration;
 using negocio;
+using System.Web.UI.WebControls;
 
 namespace Promo_Web
 {
@@ -39,9 +40,13 @@ namespace Promo_Web
                 }
                 else
                 {
-  
+                    
                     lblMessage.Text = "El código es inválido o ya ha sido utilizado.";
                     lblMessage.ForeColor = System.Drawing.Color.Red;
+
+                    btnInicio.Visible = true;
+
+
                 }
             }
             catch (Exception ex)
@@ -54,5 +59,18 @@ namespace Promo_Web
                 datos.cerrarConexion();
             }
         }
+
+
+        protected void btnInicio_Click(object sender, EventArgs e)
+        {
+
+            string script = "<script type='text/javascript'>setTimeout(function() { window.location.href = 'Default.aspx'; }, 2000);</script>";
+            ClientScript.RegisterStartupScript(this.GetType(), "Redirect", script);
+
+
+        }
+
+
+
     }
 }
